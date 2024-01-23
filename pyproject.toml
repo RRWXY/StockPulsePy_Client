@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stockpulsepy-client"
+version = "0.1.8"
+description = "\"A user-friendly, efficient, and versatile Python interface for the StockPulse API\""
+authors = ["RRWXY <144049508+RRWXY@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+sphinx = "^7.2.6"
+myst-parser = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
